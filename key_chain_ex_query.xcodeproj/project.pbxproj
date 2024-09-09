@@ -13,6 +13,7 @@
 		33C8A2DD2C8CB5AF005BCF90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C8A2DB2C8CB5AF005BCF90 /* Main.storyboard */; };
 		33C8A2DF2C8CB5B0005BCF90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C8A2DE2C8CB5B0005BCF90 /* Assets.xcassets */; };
 		33C8A2E22C8CB5B0005BCF90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C8A2E02C8CB5B0005BCF90 /* LaunchScreen.storyboard */; };
+		C01FD0362C8E932600CAAD2D /* SecureStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01FD0352C8E932600CAAD2D /* SecureStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		33C8A2DE2C8CB5B0005BCF90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33C8A2E12C8CB5B0005BCF90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33C8A2E32C8CB5B0005BCF90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C01FD0352C8E932600CAAD2D /* SecureStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				33C8A2D52C8CB5AF005BCF90 /* AppDelegate.swift */,
 				33C8A2D72C8CB5AF005BCF90 /* SceneDelegate.swift */,
 				33C8A2D92C8CB5AF005BCF90 /* ViewController.swift */,
+				C01FD0352C8E932600CAAD2D /* SecureStorage.swift */,
 				33C8A2DB2C8CB5AF005BCF90 /* Main.storyboard */,
 				33C8A2DE2C8CB5B0005BCF90 /* Assets.xcassets */,
 				33C8A2E02C8CB5B0005BCF90 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				33C8A2DA2C8CB5AF005BCF90 /* ViewController.swift in Sources */,
 				33C8A2D62C8CB5AF005BCF90 /* AppDelegate.swift in Sources */,
+				C01FD0362C8E932600CAAD2D /* SecureStorage.swift in Sources */,
 				33C8A2D82C8CB5AF005BCF90 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
